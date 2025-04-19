@@ -174,7 +174,7 @@ Ruby is a simple, dynamic language that's easy to read, due to its english-like 
 - Scoped modification of classes, uses modules to keep scope safe<br/>
 
 **Try Ruby**
-- Free and easy to use website to try [ruby] in browser(https://try.ruby-lang.org/)<br/>
+- Free and easy to use website to try ruby in [browser](https://try.ruby-lang.org/)<br/>
 
 
 
