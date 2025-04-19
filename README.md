@@ -74,17 +74,15 @@ Ruby is a simple, dynamic language that's easy to read, due to its english-like 
 **Range Operations**
 - Definition: Allows for easy shorthand for repetitive tasks
 - EX: ('a'..'e').to_a => ["a", "b", "c", "d", "e"]<br/>
-**Method Missing**
-- Definition: Placeholder method to display what was trying to be called
-- class Magic
-  def method_missing(name, *args)
-    puts "You tried to call '#{name}' with args: #{args.inspect}"
-  end
-end
 
-magic = Magic.new
-magic.cast_spell("fireball")
-magic.fly_to("moon")
+**Method Missing**
+- Definition: Placeholder method to display what was trying to be called<br/>
+
+**Monkey Patching**
+- Definition: Open existing classes and modify or add methods to class
+- EX: Adding a method "shout" to String class to convert all letters in String to uppercase<br/>
+
+
 
 
 
