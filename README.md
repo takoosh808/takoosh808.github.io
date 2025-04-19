@@ -20,14 +20,14 @@ Ruby is a simple, dynamic language that's easy to read, due to its english-like 
 
 ## Gems ##
 <br/>
-# Common Gems #
+** Common Gems **
 
 1. Rails - Web framework
 2. Rspec - Testing framework
 3. Sinatra - Web framework
 4. Devise - User authentication system
 
-# Steps to Use Gems #
+** Steps to Use Gems **
 1. Install using 'Gem install __ '
 2. Use in code using 'require __'
 
@@ -36,5 +36,15 @@ Ruby is a simple, dynamic language that's easy to read, due to its english-like 
 ## Data Types ##
 
 <br/>
+
+** Integer **
+- EX: 42
+<br/>
+** Float **
+-EX: 3.14
+<br/>
+** String **
+-EX: "String"
+
 
 
