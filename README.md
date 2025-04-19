@@ -121,15 +121,59 @@ Ruby is a simple, dynamic language that's easy to read, due to its english-like 
 
 **Scoping**
 - Lexical Scoping
-- Depends on where you write the code, rather than when it is called
+- Depends on where you write the code, rather than when it is called<br/>
 **Types**
 1. Local: inside a method or code block
 2. Instance(@): inside class or object
 3. Class(@@): shared across instances
 4. Global($): throughout whole file<br/>
 
+**First-Class**
+- Definition: Pass methods as variables
+- EX: def doTwice(action) action.call action.call end
 
+**Closure**
+- Functions that remember scope even after scope is gone
+1. Blocks
+- Method called with parameter, parameter is remember outside of scope
+2. Proc
+- Separate method to keep scope
+- EX: Proc.new { puts "Hi!" }
+3. Lambda
+- Stricter proc, keeps just lambda part of function out of scope
+- EX: -> {count += 1}<br/>
 
+## Custom Datatypes<br/>
+**Struct**
+- Definition: Group data together without making a class
+- EX: Person = Struct.new(:name, :age)<br/>
 
+**Classes**
+- Definition: Custom classes with methods, getters, setters, and attributes
+- attr_accessor for getters and setters<br/>
+
+## Cool Things In Ruby<br/>
+**Everything is an object!**
+- Literally everything is an object in ruby and therefore has methods<br/>
+
+**Flexible Syntax**
+- Optional parenthesis and english like syntax
+- EX: puts "hello" and puts ("hello") result in the same thing<br/>
+
+**Keyword Arguments**
+- Allows for defaults and makes input parameters very readable<br/>
+
+**Chain Control Statements**
+- EX: puts "It's true!" if condition raise "Nope" unless valid?<br/>
+
+**LazyLoad Modules**
+- Load code only when needed
+- EX: autoload :MyModule, 'my_module.rb'<br/>
+
+**Refinements(Scoped Monkey Patching)**
+- Scoped modification of classes, uses modules to keep scope safe<br/>
+
+**Try Ruby**
+- Free and easy to use website to try [ruby] in browser(https://try.ruby-lang.org/)<br/>
 
 
