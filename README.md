@@ -18,8 +18,7 @@ Ruby is a simple, dynamic language that's easy to read, due to its english-like 
 
 <br/>
 
-## Gems ##
-<br/>
+## Gems ##<br/>
 **Common Gems**
 
 1. Rails - Web framework
@@ -33,50 +32,48 @@ Ruby is a simple, dynamic language that's easy to read, due to its english-like 
 
 <br/>
 
-## Data Types ##
-
-<br/>
+## Data Types ##<br/>
 
 **Integer**
 - Definition: Whole Numbers
-- EX: 42
-<br/>
+- EX: 42<br/>
+
 **Float**
 - Definition: Decimal Numbers
-- EX: 3.14
-<br/>
+- EX: 3.14<br/>
+
 **String**
 - Definition: Objects of class strings, group of letters that represent a word or sentence.
-- EX: "String"
-<br/>
+- EX: "String"<br/>
+
 **Symbol**
 - Definition: Lightweight strings, preceded by colon.
-- EX: :sk => "GeeksForGeeks"
-<br/>
+- EX: :sk => "GeeksForGeeks"<br/>
+
 **Boolean**
 - Definition: Either true or false, lightweight, only stores one bit
-- EX: True
-<br/>
+- EX: True<br/>
+
 **Nil**
 - Definition: Null value for Ruby
-- EX: Nil
-<br/>
+- EX: Nil<br/>
+
 **Array**
 - Definition: Stores a list of data, data separate by a comma, can store any type of data
-- EX: [1,2,3]
-<br/>
+- EX: [1,2,3]<br/>
+
 **Hash**
 - Definition: Key-Value storage, assigned by =>
-- EX: {"Fruit" => "Banana", "Vegetable" => "Cucumber"}
-<br/>
+- EX: {"Fruit" => "Banana", "Vegetable" => "Cucumber"}<br/>
 
-## Operations and Control Structures ##
-<br/>
-**Operations**
-<br/>
+
+## Operations and Control Structures ##<br/>
+
+**Operations**<br/>
+
 **Range Operations**
 - Definition: Allows for easy shorthand for repetitive tasks
-- EX: ('a'..'e').to_a => ["a", "b", "c", "d", "e"]
+- EX: ('a'..'e').to_a => ["a", "b", "c", "d", "e"]<br/>
 **Method Missing**
 - Definition: Placeholder method to display what was trying to be called
 - class Magic
