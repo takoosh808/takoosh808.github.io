@@ -37,14 +37,57 @@ Ruby is a simple, dynamic language that's easy to read, due to its english-like 
 
 <br/>
 
-** Integer **
+**Integer**
+- Definition: Whole Numbers
 - EX: 42
 <br/>
-** Float **
--EX: 3.14
+**Float**
+- Definition: Decimal Numbers
+- EX: 3.14
 <br/>
-** String **
--EX: "String"
+**String**
+- Definition: Objects of class strings, group of letters that represent a word or sentence.
+- EX: "String"
+<br/>
+**Symbol**
+- Definition: Lightweight strings, preceded by colon.
+- EX: :sk => "GeeksForGeeks"
+<br/>
+**Boolean**
+- Definition: Either true or false, lightweight, only stores one bit
+- EX: True
+<br/>
+**Nil**
+- Definition: Null value for Ruby
+- EX: Nil
+<br/>
+**Array**
+- Definition: Stores a list of data, data separate by a comma, can store any type of data
+- EX: [1,2,3]
+<br/>
+**Hash**
+- Definition: Key-Value storage, assigned by =>
+- EX: {"Fruit" => "Banana", "Vegetable" => "Cucumber"}
+<br/>
+
+## Operations and Control Structures ##
+<br/>
+**Operations**
+<br/>
+**Range Operations**
+- Definition: Allows for easy shorthand for repetitive tasks
+- EX: ('a'..'e').to_a => ["a", "b", "c", "d", "e"]
+**Method Missing**
+- Definition: Placeholder method to display what was trying to be called
+- class Magic
+  def method_missing(name, *args)
+    puts "You tried to call '#{name}' with args: #{args.inspect}"
+  end
+end
+
+magic = Magic.new
+magic.cast_spell("fireball")
+magic.fly_to("moon")
 
 
 
